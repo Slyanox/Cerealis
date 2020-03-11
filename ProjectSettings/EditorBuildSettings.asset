@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/augmented_reality.unity
+    path: Assets/Cerealis/Scenes/augmented_reality.unity
     guid: 6106629974da3456585b13db6798181d
   m_configObjects: {}
