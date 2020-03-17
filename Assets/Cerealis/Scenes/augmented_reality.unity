@@ -998,37 +998,37 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: d3c6883a113ea4287b301d2d758c2475,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.27894
+      value: -0.116
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d3c6883a113ea4287b301d2d758c2475,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.47302
+      value: 0.325
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d3c6883a113ea4287b301d2d758c2475,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.39776
+      value: -0.17
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d3c6883a113ea4287b301d2d758c2475,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.025660403
+      value: 0.01364817
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d3c6883a113ea4287b301d2d758c2475,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9716923
+      value: 0.9883347
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d3c6883a113ea4287b301d2d758c2475,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.19839449
+      value: 0.14554898
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d3c6883a113ea4287b301d2d758c2475,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.12567897
+      value: -0.042705625
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d3c6883a113ea4287b301d2d758c2475,
         type: 3}
@@ -1038,32 +1038,32 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: d3c6883a113ea4287b301d2d758c2475,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -23.079
+      value: -16.79
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d3c6883a113ea4287b301d2d758c2475,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 165.261
+      value: 184.81999
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d3c6883a113ea4287b301d2d758c2475,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 0.87100005
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d3c6883a113ea4287b301d2d758c2475,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.065972894
+      value: 0.09310094
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d3c6883a113ea4287b301d2d758c2475,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.065972894
+      value: 0.09310094
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d3c6883a113ea4287b301d2d758c2475,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.065972894
+      value: 0.09310094
       objectReference: {fileID: 0}
     - target: {fileID: -3411239638254681315, guid: d3c6883a113ea4287b301d2d758c2475,
         type: 3}
@@ -1285,6 +1285,7 @@ GameObject:
   - component: {fileID: 686453511}
   - component: {fileID: 686453510}
   - component: {fileID: 686453509}
+  - component: {fileID: 686453512}
   m_Layer: 5
   m_Name: Buttonshare
   m_TagString: Untagged
@@ -1354,7 +1355,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 686453510}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 686453512}
+        m_MethodName: ShareSocialMedia
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &686453510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1391,6 +1403,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 686453507}
   m_CullTransparentMesh: 0
+--- !u!114 &686453512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 686453507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b2f5c0657e240d286ebcc40c25c62d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &744907835 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: d3c6883a113ea4287b301d2d758c2475,
@@ -2708,7 +2732,7 @@ MonoBehaviour:
   m_Script: {fileID: -1826476478, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mWorldCenterMode: 2
+  mWorldCenterMode: 1
   mWorldCenter: {fileID: 0}
 --- !u!81 &2145382992
 AudioListener:
